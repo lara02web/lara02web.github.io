@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="widthdevice-width,  initialscale=1">
+        <link rel="stylesheet" type="text/css" 
+        href="code.css">
+    </head>
+
+    <body>
+        <title>My Sketch</title>
+        <!-- Load the Processing.js library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+        </head>
+        <body>
+        <script type="application/processing">
+            let x = 300;
+            let y = 300;
+            
+            function setup() {
+                
+                createCanvas(600, 600);
+                frameRate(150);
+
+            
+            }
+            function draw() {
+                
+    
+            
+                fill(255);
+                stroke(90, 80, 240);
+                ellipse( 300,y, 100,100);
+                
+                if millis() > 0 {
+                  let x = x + 1;
+                }
+                if x > width {
+                  let x = 0;
+                }
+                fill(0);
+                stroke(90, 80, 200);
+                ellipse( x,300, 100,100);
+                
+                if millis() > 0 {
+                  let y = y + 1;
+                }
+                if y > width {
+                  let y = 0;
+                }
+            }
+            function keyPressed() {
+                if key == ' ' {
+                    let x = delay(1000)
+                }
+            }
+        </script>
+        <canvas>
+        </canvas>
+
+
+    </body>
+
+</html>

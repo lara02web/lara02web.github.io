@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="widthdevice-width,  initialscale=1">
+        <link rel="stylesheet" type="text/css" 
+        href="window.css">
+    </head>
+
+    <body>
+
+    <nav>  
+
+        <h1>windows</h1>
+        <div id="letterboxd-embed-wrapper-tc">Loading...</div>
+        <script>
+        fetch('https://lb-embed-content.bokonon.dev?username=laramakeslists')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('letterboxd-embed-wrapper-tc').innerHTML = data;
+        });
+        </script>
+
+
+        </nav>
+
+
+    </body>
+
+</html>
+

@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+
+    img {
+        transform: scale(0.5);
+    
+    }
+
+    margin: auto;
+
+}
+
+body {
+    background-color: black;
+    background-image: url(../img/.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+
+
+
+h1 {
+    color: #79ff64;
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    top: 0;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 1; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    padding-right: 2%;
+
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+    height: 38px;
+    margin-right: 9px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    color: #79ff64;
+    padding: 1px 30px;
+    }
+
+img {
+    width: 60%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.shrimpcss {
+    background-image: url(../img/.jpg);
+}
+
+.charccss {
+    background-image: url(../img/.jpg);
+}

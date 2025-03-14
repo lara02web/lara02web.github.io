@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a:link, a:visited {
+
+    background-color: #2300a1;
+    color: rgb(237, 176, 255);
+    padding: 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    bottom: 3%;
+    left: 2%;
+  
+  
+  a:hover, a:active {
+    background-color: rgb(244, 96, 255);
+
+ }
+ 
+}
+
+
+body {
+    background-color: black;
+    background-image: url(../img/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(151, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48 px;
+}
+
+.active {
+    background-image: url(../img/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(201, 133, 237);
+    font-family: cursive;
+}
+
+/* .on {
+    background-image: url(night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+ 
+
+.home {
+    background-color: #a288ff;
+    color: rgb(198, 255, 190);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 2%;
+    left: 2%;
+    position: fixed;
+}

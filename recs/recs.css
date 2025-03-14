@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+
+    img {
+        transform: scale(0.5);
+    
+    }
+}
+
+body {
+    background-color: black;
+    background-image: url(img/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1 {
+    color: #64f7ff;
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+
+    color: #64f7ff;
+
+    height: 38px;
+    margin-right: 9px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    padding: 1px 30px;
+
+    
+    }
+
+img {
+    width: 60%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.home {
+    background-color: #a288ff;
+    color: rgb(198, 255, 190);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    bottom: 2%;
+    left: 2%;
+    position: fixed;
+}
